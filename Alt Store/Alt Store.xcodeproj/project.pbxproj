@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A5F227C2AC9A0CE00C3D16A /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5F227B2AC9A0CE00C3D16A /* App.swift */; };
+		3A5F227E2AC9A27600C3D16A /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5F227D2AC9A27600C3D16A /* Review.swift */; };
 		3A9F1D222AC84CE400A57A65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9F1D212AC84CE400A57A65 /* AppDelegate.swift */; };
 		3A9F1D242AC84CE400A57A65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9F1D232AC84CE400A57A65 /* SceneDelegate.swift */; };
-		3A9F1D262AC84CE400A57A65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9F1D252AC84CE400A57A65 /* ViewController.swift */; };
 		3A9F1D292AC84CE400A57A65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9F1D272AC84CE400A57A65 /* Main.storyboard */; };
 		3A9F1D2B2AC84CE500A57A65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9F1D2A2AC84CE500A57A65 /* Assets.xcassets */; };
 		3A9F1D2E2AC84CE500A57A65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9F1D2C2AC84CE500A57A65 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A5F227B2AC9A0CE00C3D16A /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		3A5F227D2AC9A27600C3D16A /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		3A9F1D1E2AC84CE400A57A65 /* Alt Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alt Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9F1D212AC84CE400A57A65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A9F1D232AC84CE400A57A65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A9F1D252AC84CE400A57A65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A9F1D282AC84CE400A57A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A9F1D2A2AC84CE500A57A65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A9F1D2D2AC84CE500A57A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +39,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A5F22762AC99F0000C3D16A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A9F1D272AC84CE400A57A65 /* Main.storyboard */,
+				3A9F1D2C2AC84CE500A57A65 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3A5F22772AC99F1900C3D16A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A5F227B2AC9A0CE00C3D16A /* App.swift */,
+				3A5F227D2AC9A27600C3D16A /* Review.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A5F22782AC99F2200C3D16A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3A5F22792AC99F4F00C3D16A /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3A9F1D2A2AC84CE500A57A65 /* Assets.xcassets */,
+				3A9F1D2F2AC84CE500A57A65 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		3A5F227A2AC9A09100C3D16A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3A9F1D212AC84CE400A57A65 /* AppDelegate.swift */,
+				3A9F1D232AC84CE400A57A65 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
 		3A9F1D152AC84CE400A57A65 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +101,11 @@
 		3A9F1D202AC84CE400A57A65 /* Alt Store */ = {
 			isa = PBXGroup;
 			children = (
-				3A9F1D212AC84CE400A57A65 /* AppDelegate.swift */,
-				3A9F1D232AC84CE400A57A65 /* SceneDelegate.swift */,
-				3A9F1D252AC84CE400A57A65 /* ViewController.swift */,
-				3A9F1D272AC84CE400A57A65 /* Main.storyboard */,
-				3A9F1D2A2AC84CE500A57A65 /* Assets.xcassets */,
-				3A9F1D2C2AC84CE500A57A65 /* LaunchScreen.storyboard */,
-				3A9F1D2F2AC84CE500A57A65 /* Info.plist */,
+				3A5F22782AC99F2200C3D16A /* Controllers */,
+				3A5F22772AC99F1900C3D16A /* Models */,
+				3A5F227A2AC9A09100C3D16A /* AppDelegate */,
+				3A5F22762AC99F0000C3D16A /* Views */,
+				3A5F22792AC99F4F00C3D16A /* SupportFiles */,
 			);
 			path = "Alt Store";
 			sourceTree = "<group>";
@@ -138,7 +181,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A9F1D262AC84CE400A57A65 /* ViewController.swift in Sources */,
+				3A5F227C2AC9A0CE00C3D16A /* App.swift in Sources */,
+				3A5F227E2AC9A27600C3D16A /* Review.swift in Sources */,
 				3A9F1D222AC84CE400A57A65 /* AppDelegate.swift in Sources */,
 				3A9F1D242AC84CE400A57A65 /* SceneDelegate.swift in Sources */,
 			);
@@ -294,7 +338,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XMRMHLG4UV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Alt Store/Info.plist";
+				INFOPLIST_FILE = "Alt Store/SupportFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,7 +367,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XMRMHLG4UV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Alt Store/Info.plist";
+				INFOPLIST_FILE = "Alt Store/SupportFiles/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
