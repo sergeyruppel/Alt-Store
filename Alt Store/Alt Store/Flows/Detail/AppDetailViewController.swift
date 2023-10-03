@@ -1,13 +1,15 @@
 //
-//  ViewController.swift
+//  AppDetailViewController.swift
 //  Alt Store
 //
-//  Created by Sergey Ruppel on 02.10.2023.
+//  Created by Sergey Ruppel on 03.10.2023.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class AppDetailViewController: UIViewController {
+    
+    var cellIndex: Int?
 
     override func viewDidLoad() {
         super.viewDidLoad()

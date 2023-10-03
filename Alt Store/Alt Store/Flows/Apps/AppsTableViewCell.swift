@@ -1,21 +1,13 @@
 //
-//  TableViewCell.swift
+//  AppsTableViewCell.swift
 //  Alt Store
 //
-//  Created by Sergey Ruppel on 01.10.2023.
+//  Created by Sergey Ruppel on 03.10.2023.
 //
 
 import UIKit
 
-class TableViewCell: UITableViewCell {
-    
-    @IBOutlet weak var textfield: UITextField!
-    @IBAction func buttonAction(_ sender: Any) {
-        if let text = self.textfield.text {
-            print(text)
-        }
-    }
-
+class AppsTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

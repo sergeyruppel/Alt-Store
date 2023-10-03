@@ -14,4 +14,5 @@ struct App {
     let icon: UIImage?
     
     let reviews = Array<Review>()
+    let rating = "000"
 }
