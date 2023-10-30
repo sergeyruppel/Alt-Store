@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3pr-zz-l1Q">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3pr-zz-l1Q">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -23,28 +23,28 @@
                         <color key="tintColor" name="AccentColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="VxR-3e-PcH" detailTextLabel="CT2-l0-PCJ" imageView="uFd-lV-Lx4" style="IBUITableViewCellStyleSubtitle" id="Alg-kB-hQd">
-                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                <rect key="frame" x="0.0" y="50" width="393" height="68.666664123535156"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Alg-kB-hQd" id="VRQ-As-k4f">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="68.666664123535156"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VxR-3e-PcH">
-                                            <rect key="frame" x="78.666666666666686" y="0.0" width="41.666666666666664" height="24"/>
+                                            <rect key="frame" x="104" y="9.3333333333333357" width="41.666666666666664" height="24"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CT2-l0-PCJ">
-                                            <rect key="frame" x="78.666666666666686" y="24" width="58.333333333333336" height="20.333333333333332"/>
+                                            <rect key="frame" x="103.99999999999999" y="37" width="58.333333333333336" height="20.333333333333332"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="firefox" id="uFd-lV-Lx4">
-                                            <rect key="frame" x="20" y="0.0" width="43.666666666666686" height="43.666666666666664"/>
+                                            <rect key="frame" x="20" y="0.0" width="69" height="68.666666666666671"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
                                         </imageView>
@@ -147,7 +147,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ni2-cC-dww" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3941" y="-204"/>
+            <point key="canvasLocation" x="3898" y="-255"/>
         </scene>
         <!--Games-->
         <scene sceneID="YHH-cH-otD">
@@ -216,7 +216,7 @@
         <scene sceneID="aF9-X1-3fa">
             <objects>
                 <navigationController id="5k2-8Q-CAu" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Apps" image="app" catalog="system" selectedImage="app.fill" id="QIo-Nl-qAN"/>
+                    <tabBarItem key="tabBarItem" title="Apps" image="square.3.stack.3d" catalog="system" selectedImage="square.3.stack.3d.top.fill" id="QIo-Nl-qAN"/>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="always" id="f6s-vs-xmp"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qm3-AO-ajY">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -272,7 +272,7 @@
                                                         </constraints>
                                                     </imageView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="zq9-hk-Apn">
-                                                        <rect key="frame" x="37.000000000000014" y="294" width="255.33333333333337" height="239.33333333333337"/>
+                                                        <rect key="frame" x="37" y="294" width="255.33333333333337" height="239.33333333333337"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="CPW-yq-pcC">
                                                                 <rect key="frame" x="0.0" y="0.0" width="255.33333333333334" height="157"/>
@@ -451,7 +451,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f3A-Th-Fpt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4746" y="-586"/>
+            <point key="canvasLocation" x="4927" y="-959"/>
         </scene>
         <!--Your Review-->
         <scene sceneID="8TY-5I-Uly">
@@ -570,11 +570,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="app" catalog="system" width="128" height="114"/>
-        <image name="app.fill" catalog="system" width="128" height="114"/>
         <image name="firefox" width="230" height="230"/>
         <image name="gamecontroller" catalog="system" width="128" height="79"/>
         <image name="gamecontroller.fill" catalog="system" width="128" height="79"/>
+        <image name="square.3.stack.3d" catalog="system" width="128" height="125"/>
+        <image name="square.3.stack.3d.top.fill" catalog="system" width="128" height="125"/>
         <image name="star" catalog="system" width="128" height="116"/>
         <image name="youtube" width="246" height="246"/>
         <namedColor name="AccentColor">
